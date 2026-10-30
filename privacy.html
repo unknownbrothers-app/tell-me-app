@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tell Me privacy policy</title>
+  <meta name="description" content="Privacy policy for the Tell Me voice helper app.">
+  <style>
+    :root { color-scheme: light; }
+    body {
+      margin: 0;
+      background: #fff;
+      color: #1a1a1a;
+      font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 1.125rem;
+      line-height: 1.5;
+    }
+    main { max-width: 40rem; margin: 0 auto; padding: 2rem 1.25rem 3rem; }
+    h1 { font-size: 2.25rem; line-height: 1.15; margin: 0.4rem 0 0.5rem; }
+    h2 { font-size: 1.45rem; margin: 2rem 0 0.5rem; }
+    p, li { margin: 0.6rem 0; }
+    a { color: #1a1a1a; }
+    .mark {
+      width: 2.5rem; height: 2.5rem; border-radius: 50%;
+      background: #d50000;
+    }
+    .note {
+      background: #fff4f4;
+      border: 2px solid #d50000;
+      border-radius: 12px;
+      padding: 0.9rem 1rem;
+    }
+    footer { margin-top: 2.5rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mark" aria-hidden="true"></div>
+    <h1>Tell Me privacy policy</h1>
+    <p>Last updated: 29 October 2026</p>
+
+    <h2>Who is responsible</h2>
+    <p>Tell Me is made by Rahul Nandan, in Hyderabad, India. Tell Me has no company account system and no server of its own.</p>
+
+    <h2>What the app does</h2>
+    <p>Tell Me is a voice helper. You tap one red button and speak. The app answers out loud in the language you chose: English, Hindi, Telugu, Kannada, Tamil, or Malayalam. It can open Google Maps, the phone dialer, WhatsApp, a UPI payment app, or the official IRCTC website. It can also warn you about common scams.</p>
+
+    <h2>Microphone and speech recognition</h2>
+    <p>The app uses the microphone only while the red button is recording. A recording lasts at most 60 seconds, and you can stop it sooner.</p>
+    <p>Tell Me asks the phone to turn speech into text on the device. If the phone cannot do that for the language you chose, the phone’s built-in speech service may process the audio. On an iPhone that service is Apple’s. On an Android phone it is the speech recognizer installed on the device. Tell Me does not upload the recording to a Tell Me server, and it does not save the recording after the request is finished.</p>
+
+    <h2>Words sent to Google Gemini</h2>
+    <p>If the copy of the app was built with a Gemini API key, the text of what you said is sent to Google’s Gemini API at <code>generativelanguage.googleapis.com</code> so the app can understand the request. The default model is Gemini Flash-Lite. The request also includes the language you chose and, if you saved one, the family contact’s name.</p>
+    <p>The saved family phone number is not added to that request. If you speak a phone number, a place, an amount, or a UPI id, those words are part of the text sent to Gemini, because they are part of what you said.</p>
+    <p>Tell Me does not send your UPI PIN, card number, or password. It never asks you to type a PIN.</p>
+    <p>Google processes that text under its own terms. Read <a href="https://policies.google.com/privacy">Google’s privacy policy</a> and the <a href="https://ai.google.dev/gemini-api/terms">Gemini API terms</a>. Tell Me does not control how long Google keeps API requests.</p>
+    <p>If the app was built without a Gemini key, the words stay on the phone. Simple requests such as a call, a place, WhatsApp, a payment hint, trains, and scam warnings can still be handled on the device. Other questions ask a family member to add the key.</p>
+
+    <h2>What stays on the phone</h2>
+    <p>These settings are stored only on the device, using the phone’s local storage:</p>
+    <ul>
+      <li>the language you chose</li>
+      <li>the family contact’s name</li>
+      <li>the family contact’s phone number</li>
+      <li>whether the first-time setup is finished</li>
+    </ul>
+    <p>Tell Me does not read your contacts list. You type one name and number yourself, or you leave them blank. Deleting the app deletes these settings.</p>
+
+    <h2>Other apps the button can open</h2>
+    <p>When you ask, Tell Me opens a link in another app or on the web. It does not receive data back from those apps.</p>
+    <ul>
+      <li>Google Maps, using a search link for a place you named. Tell Me does not ask for location permission and does not send GPS coordinates.</li>
+      <li>The phone dialer, using a <code>tel:</code> link. You still place the call.</li>
+      <li>WhatsApp, using a <code>wa.me</code> link.</li>
+      <li>Your UPI app, using a <code>upi://pay</code> link, or spoken steps if there is no UPI id. The UPI app asks for the PIN. Tell Me never sees it.</li>
+      <li>The official IRCTC website, for trains and PNR help. Tell Me does not sign in or book a ticket.</li>
+    </ul>
+    <p>Those services have their own privacy policies.</p>
+
+    <h2>Accounts, ads, and tracking</h2>
+    <p>Tell Me has no user accounts, no Tell Me backend, and no Firebase. It does not show ads. It does not use an advertising identifier. It does not include an analytics or tracking SDK. It does not sell personal information. It does not track you across other companies’ apps or websites.</p>
+
+    <h2>Children</h2>
+    <p>Tell Me is not made for children under 13. It is meant for adults, including older people and people who are new to smartphones.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the date at the top of the page will change. The page is published with the app’s source so you can see the version that matches the app.</p>
+
+    <h2>Contact</h2>
+    <p>Rahul Nandan<br>Hyderabad, India<br>
+    <a href="mailto:unknownnbrothers@gmail.com">unknownnbrothers@gmail.com</a></p>
+
+    <footer>
+      <p><a href="support.html">Support</a></p>
+    </footer>
+  </main>
+</body>
+</html>
